@@ -25,7 +25,7 @@ class MyFrame extends JFrame implements ActionListener
     {
         if(e.getSource()==b1)
         {
-            System.out.println(c1.isSelected());
+            System.out.println(c1.isSelected()); //returns true or false whether box is selected or not 
         }
     }
 }
